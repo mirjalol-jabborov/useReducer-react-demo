@@ -1,0 +1,22 @@
+.navbarCustom{
+    ul{
+        background-color: #000;
+        padding: 0.5rem 0;
+        text-align: center;
+        li{
+            list-style: none;
+            display: inline-block;
+            a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: 600;
+                padding: 0.5rem 1rem;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    color: #f1f1f1;
+                }
+            }
+        }
+    }
+}
