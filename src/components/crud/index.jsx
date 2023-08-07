@@ -62,10 +62,9 @@ const Crud = () => {
                 <select className="form-select" 
                 value={selectedItem?.userImg}
                 >
-                    <option value="https://m.ridus.ru/images/2021/4/30/1264756/in_article_cca99b4e9a.jpg">Not Happy cute KITTY</option>
-                    <option value="https://icdn.lenta.ru/images/2020/09/30/13/20200930130228617/pwa_vertical_1280_8d172d6dae702e03017c045d5142ee5e.jpg">Crying cat</option>
-                    <option value="https://kartinkof.club/uploads/posts/2022-03/1648329591_1-kartinkof-club-p-kot-s-ulibkoi-mem-1.jpg">Beluga</option>
-                    <option value="https://vsememy.ru/wp-content/cache/thumb/c5dc959c3_320x200.jpg">white big mouth</option>
+                    <option value={window.location.origin + "/assets/cry.jpg"}>Crying cat</option>
+                    <option value={window.location.origin + "/assets/beluga.jpg"}>Beluga</option>
+                    <option value={window.location.origin + "/assets/bigMouth.jpg"}>white big mouth</option>
                 </select>
               <button className="btn btn-primary" type="submit">
                 Enter
